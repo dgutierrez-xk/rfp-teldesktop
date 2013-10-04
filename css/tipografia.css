@@ -1,0 +1,185 @@
+/* CUERPO
+========================================================================== */
+body {
+  font-family: "Open Sans", Helvetica, Arial;
+  font-size: 12px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-weight: bold;
+  line-height: 20px;
+  color: #2B448D;
+  text-rendering: optimizelegibility;
+
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 38.5px;
+}
+
+h2 {
+  font-size: 31.5px;
+}
+
+h3 {
+  font-size: 24.5px;
+}
+
+h4 {
+  font-size: 17.5px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 11.9px;
+}
+
+h1 small {
+  font-size: 24.5px;
+}
+
+h2 small {
+  font-size: 17.5px;
+}
+
+h3 small {
+  font-size: 14px;
+}
+
+h4 small {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+
+.text-blue1 {
+  color: #00374D !important;
+}
+.text-blue2 {
+  color: #2B4390 !important;
+}
+.text-blue3 {
+  color: #83C3EF !important;
+}
+/* HEADER
+========================================================================== */
+header .min-nav ul li a {
+  color: #fff;
+  font-weight: 300; 
+}
+header .min-nav ul li a:hover {
+  color: #83C3EF !important;
+}
+header .min-nav ul li a.text-blue3:hover {
+  color: #fff !important;
+}
+
+header .min-cambiar {
+  color: #5985a8 !important;
+  text-decoration: underline !important;
+  font-weight: 300; 
+}
+nav ul li a {
+  color: #83C3EF;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform:  uppercase;
+  height: 59px;
+  line-height: 59px;
+  display: block;
+}
+/* CONTENT
+========================================================================== */
+.equipos_home p {
+  text-align: center;
+  margin-top: 8px;
+  color: #666666;
+}
+/* FOOTER
+========================================================================== */
+footer .copy, 
+footer .copy a {
+  color: #868585;
+  font-size: 10px;
+}
+footer .copy a:hover {
+  color: #00374D !important;
+  text-decoration: underline !important;   
+}
+footer .before_footer h4,
+footer .before_footer a {
+  color: #868585 !important;
+}
+footer .before_footer ul li a:hover {
+  color: #83C3EF !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {}
+
+.before_footer {
+    padding: 20px 0;
+}
