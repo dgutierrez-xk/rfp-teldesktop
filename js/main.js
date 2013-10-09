@@ -8,21 +8,21 @@ $(document).ready(function(){
  	});
 
  	$("#cel-slide").owlCarousel({
-		autoPlay   : true,
+		autoPlay   : false,
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400
  	});
 
  	$("#apps-slide").owlCarousel({
-		autoPlay   : true,
+		autoPlay   : false,
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400
  	});
 
  	$("#planes-slide").owlCarousel({
-		autoPlay   : true,
+		autoPlay   : false,
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400,
@@ -30,7 +30,7 @@ $(document).ready(function(){
  	});
 
  	$("#accesorios-slide").owlCarousel({
-		autoPlay   : true,
+		autoPlay   : false,
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400,

@@ -14,7 +14,7 @@ button {
 }
 .owl-prev, .owl-next{
 	overflow: hidden;
-	background-image: url(../img/sprites.png) !important;
+	background-image: url(../img/sprites-red.png) !important;
 	background-position: -68px -11px;
 	width: 14px;
 	height: 23px;
@@ -47,7 +47,7 @@ button {
 	====================================================================== */
 	header .min-header {
 		height: 25px;
-		background-color: #00374D;
+		background-color: #8C0303;
 	}
 	header .min-nav {
 		float: right;
@@ -81,7 +81,7 @@ button {
 		display: block;
 	}
 	.cabezote .icon-cart {
-		background-image: url(../img/sprites.png);
+		background-image: url(../img/sprites-red.png);
 		background-position: -10px -12px;
 		width: 24px;
 		height: 21px;
@@ -124,7 +124,7 @@ button {
 	}
 	.buscador input{
 		line-height: 2;
-		background-color: #4961a7;
+		background-color: #8C0303;
 		border: none;
 		padding: 8px 20px;
 		width: 69%;
@@ -145,10 +145,10 @@ button {
 	}
 
 	.buscador input::-webkit-input-placeholder {
-		color: #83C3EF;
+		color: #EF8383;
 	}
 	.buscador .icon-search {
-		background-image: url(../img/sprites.png);
+		background-image: url(../img/sprites-red.png);
 		background-position: -42px -14px;
 		width: 18px;
 		height: 17px;
@@ -179,7 +179,7 @@ button {
 		width: 100%;
 		height: 60px;
 		position: absolute;
-		background-color: #2B4390;
+		background-color: #d62323;
 	}
 
 	.cabezote .header-color + .w960 > .row{
@@ -207,7 +207,7 @@ button {
 	}
 
 	.content-nav .submenu li a{
-		color: #2B4390;
+		color: #902B2B;
 		font-size: 15px;
 		display: block;
 		height: 40px;
@@ -216,7 +216,7 @@ button {
 	}
 
 	.content-nav .submenu li a:hover{
-		color: #00374D;
+		color: #4D0000;
 		font-size: 15px;
 		background: #eee;
 	}
@@ -292,14 +292,14 @@ button {
 	position: relative;
 }
 .equipos-home button {
-    border: 2px solid #83C3EF;
+    border: 2px solid #EF8383;
     background-color: #fff;
-    color: #83C3EF;
+    color: #EF8383;
     margin-top: 8px;
 }
 .equipos-home button:hover {
-	color: #2B4390;
-	border-color: #2B4390;
+	color: #902B2B;
+	border-color: #902B2B;
 }
 .equipos-home .arrow {
 	position: absolute;
@@ -345,7 +345,7 @@ button {
 }
 
 .owl-item .c2 p{
-	color:#2B4390;
+	color:#902B2B;
 }
 
 .equipos-home .owl-next{
@@ -398,8 +398,8 @@ button {
 }
 
 .dummy-item button{
-	border: 2px solid #83C3EF;
-    color: #83C3EF;
+	border: 2px solid #EF8383;
+    color: #EF8383;
     margin-top: 13px;
     background: transparent;
     display: block;
@@ -413,7 +413,7 @@ button {
 .info-calculate{
 	width: 14px;
 	height: 14px;
-	background: url(../img/info-icon.png);
+	background: url(../img/info-icon-red.png);
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 5px;
@@ -476,7 +476,7 @@ footer .copy ul li:last-child {
 	margin-right: 10px !important;
 }
 .redsociales .icon-fbk {
-	background-image: url(../img/sprites.png);
+	background-image: url(../img/sprites-red.png);
 	background-position: -2px -85px;
 	width: 40px;
 	height: 40px;
@@ -484,7 +484,7 @@ footer .copy ul li:last-child {
 	position: relative;
 }
 .redsociales .icon-tw {
-	background-image: url(../img/sprites.png);
+	background-image: url(../img/sprites-red.png);
 	background-position: -47px -85px;
 	width: 40px;;
 	height: 40px;
@@ -492,7 +492,7 @@ footer .copy ul li:last-child {
 	position: relative;
 }
 .redsociales .icon-goog {
-	background-image: url(../img/sprites.png);
+	background-image: url(../img/sprites-red.png);
 	background-position: -2px -170px;
 	width: 40px;;
 	height: 40px;
@@ -511,7 +511,7 @@ footer .copy ul li:last-child {
 
 .cabezote .icon-cart:before {
 	content: " ";
-	border-right: 1px solid #2a83c2;
+	border-right: 1px solid #8C0303;
 	height: 23px;
 	width: 0;
 	right: 0;
@@ -521,8 +521,7 @@ footer .copy ul li:last-child {
 }
 
 
-/* Tipografía */
-
+/*Tipografía */
 
 /* CUERPO
 ========================================================================== */
@@ -539,7 +538,7 @@ h6 {
   margin: 10px 0;
   font-weight: bold;
   line-height: 20px;
-  color: #2B448D;
+  color: #8D2B2B;
   text-rendering: optimizelegibility;
 
 }
@@ -611,7 +610,7 @@ a {
   color: #2B4390 !important;
 }
 .text-blue3 {
-  color: #83C3EF !important;
+  color: #EF8383 !important;
 }
 /* HEADER
 ========================================================================== */
@@ -620,7 +619,7 @@ header .min-nav ul li a {
   font-weight: 300; 
 }
 header .min-nav ul li a:hover {
-  color: #83C3EF !important;
+  color: #EF8383 !important;
 }
 header .min-nav ul li a.text-blue3:hover {
   color: #fff !important;
@@ -632,7 +631,7 @@ header .min-cambiar {
   font-weight: 300; 
 }
 nav ul li a {
-  color: #83C3EF;
+  color: #F19191;
   font-size: 14px;
   font-weight: 300;
   text-transform:  uppercase;
@@ -663,7 +662,7 @@ footer .before_footer a {
   color: #868585 !important;
 }
 footer .before_footer ul li a:hover {
-  color: #83C3EF !important;
+  color: #EF8383 !important;
 }
 
 
