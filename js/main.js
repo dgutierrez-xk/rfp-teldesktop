@@ -50,6 +50,7 @@ $(document).ready(function(){
 
  	$('#menu-container').easytabs({
  		tabs: "#menu-tabs li",
- 		tabActiveClass: "none"
+ 		tabActiveClass: "none",
+ 		updateHash:false
  	});
 });
